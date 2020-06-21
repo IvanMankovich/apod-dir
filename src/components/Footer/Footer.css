@@ -1,0 +1,37 @@
+.footer {
+    background-color: #333;
+    margin: 0;
+}
+
+.responsibilityNote {
+    color: #f0f8ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    
+}
+
+.copyrightNote {
+    color: #a5abb1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copyrightNote a {
+    color: #a5abb1;
+}
+
+.copyrightNote a:hover {
+    color: #a5abb1;
+    text-decoration: underline;
+}
+
+.responsibilityNote a {
+    color: #f0f8ff;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+.selectBlock {
+    padding: 2rem;
+}
+
+.selectBlock_title {
+    margin: 0 auto;
+}
+
+label {
+    padding-right: 1rem;
+}

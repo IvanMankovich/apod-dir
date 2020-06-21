@@ -1,0 +1,31 @@
+.galleryBlockContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.galleryWrapper {
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
+    padding-bottom: 3rem;
+}
+
+h3 {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+@supports (display: grid) {
+    .galleryWrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+        grid-gap: 1rem;
+    }
+
+    .galleryWrapper {
+        width: auto;
+        margin: 0;
+    }
+}

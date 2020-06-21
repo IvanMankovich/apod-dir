@@ -1,0 +1,18 @@
+.contentBlock {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contentBlock_contentTitle {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.contentBlock_contentItem {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contentBlock_contentExplanation {
+    color: #141414;
+}

@@ -1,0 +1,11 @@
+.header {
+    background-color: #333;
+    margin: 0;
+}
+
+h1 {
+    color: #f0f8ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
